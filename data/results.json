@@ -1,0 +1,100 @@
+[
+  {
+    "title": "The Secrets of a Sacred Underground",
+    "link": "https://www.nytimes.com/2019/04/18/arts/st-patricks-old-cathedral-catacombs-tour.html",
+    "summary": "A candlelight catacombs tour of the crypt at St. Patrick’s Old Cathedral in Manhattan reveals the church’s history, including its famous tenants.",
+    "date": "4/18/19",
+    "thumbnail": "images/article/st-patricks-old-cathedral-catacombs-tour.jpg"
+  },
+  {
+    "title": "Celestial Visions on the Met Roof",
+    "link": "https://www.nytimes.com/2019/04/18/arts/design/met-roof-garden-alicja-kwade.html",
+    "summary": "High above Manhattan, Alicja Kwade’s planetary sculpture captures the music of the spheres.",
+    "date": "4/18/19",
+    "thumbnail": "images/article/met-roof-garden-alicja-kwade.jpg"
+  },
+  {
+    "title": "House Hunting in … Hong Kong",
+    "link": "https://www.nytimes.com/2019/04/17/realestate/house-hunting-in-hong-kong.html",
+    "summary": "Even as events conspire to dent its prices and sales volume, Hong Kong remains the world’s most expensive housing market.",
+    "date": "4/17/19",
+    "thumbnail": "images/article/house-hunting-in-hong-kong.jpg"
+  },
+  {
+    "title": "Hotels and Resorts Ramp Up Sustainability Efforts",
+    "link": "https://www.nytimes.com/2019/04/17/travel/hotels-sustainability-ecotourism.html",
+    "summary": "For an increasing number of properties, Earth Day is every day.",
+    "date": "4/17/19",
+    "thumbnail": "images/article/hotels-sustainability-ecotourism.jpg"
+  },
+  {
+    "title": "In Stockholm, a Turn to Sharing Homes",
+    "link": "https://www.nytimes.com/2019/04/16/realestate/stockholm-home-sharing-rent-k9-hotel.html",
+    "summary": "Amid a decades-long housing shortage, a former hotel is now home to 50 people, ranging in age from 21 to 54.",
+    "date": "4/16/19",
+    "thumbnail": "images/article/stockholm-home-sharing-rent-k9-hotel.jpg"
+  },
+  {
+    "title": "A Joyful Oasis Thrives in the California Desert",
+    "link": "https://www.nytimes.com/slideshow/2019/04/15/dining/la-copine-california.html",
+    "summary": "At La Copine, on the edge of Joshua Tree National Park, two women have created a welcoming destination for simple, seasonal cooking.",
+    "date": "4/15/19",
+    "thumbnail": "images/article/la-copine-review.jpg"
+  },
+  {
+    "title": "Hotel Review: Shinola Hotel, Detroit",
+    "link": "https://www.nytimes.com/2019/04/13/travel/checkin-detroit-shinola-hotel.html",
+    "summary": "With the opening of its first hotel in January, the luxury fashion brand Shinola continues to boost its presence — some would say omnipresence — in Motor City.",
+    "date": "4/13/19",
+    "thumbnail": "images/article/checkin-detroit-shinola-hotel.jpg"
+  },
+  {
+    "title": "When it Comes to the French and Food, ‘You Can’t Make Any Mistakes’",
+    "link": "https://www.nytimes.com/2019/04/13/travel/oscar-farinetti-eataly-paris.html",
+    "summary": "The Italian entrepreneur Oscar Farinetti is to open Eataly Paris Marais, his 39th outpost of the popular Italian food hall, in mid-April..",
+    "date": "4/13/19",
+    "thumbnail": "images/article/oscar-farinetti-eataly-paris.jpg"
+  },
+  {
+    "title": "For a Seattle Enclave, Isolation May Be Its Salvation",
+    "link": "https://www.nytimes.com/2019/04/12/travel/seattle-south-park.html",
+    "summary": "The working-class neighborhood of South Park is hard to reach and affordable. It’s also somewhat of an anomaly in one of the nation’s fastest-growing cities.",
+    "date": "4/12/19",
+    "thumbnail": "images/article/seattle-south-park.jpg"
+  },
+  {
+    "title": "At Singapore’s Changi Airport, a New Jewel Shines",
+    "link": "https://www.nytimes.com/2019/04/11/travel/singapores-changi-airport-jewel.html",
+    "summary": "The 10-story Jewel, offering visitors a forest, indoor waterfall and more than 280 stores and restaurants, hopes to make the Singapore airport a destination in itself.",
+    "date": "4/11/19",
+    "thumbnail": "images/article/singapores-changi-airport-jewel.jpg"
+  },
+  {
+    "title": "36 Hours in Marseille",
+    "link": "https://www.nytimes.com/2019/04/11/travel/36-hours-in-marseille.html",
+    "summary": "The French port city is shedding much of its once-gritty reputation and emerging as a place where ambitious cultural and culinary offerings take center stage.",
+    "date": "4/11/19",
+    "thumbnail": "images/article/36-hours-in-marseille.jpg"
+  },
+  {
+    "title": "An Artist Colony Thrives in the South African Desert",
+    "link": "https://www.nytimes.com/2019/04/11/travel/prince-albert-south-africa-artist-colony.html",
+    "summary": "Isolated in the Great Karoo, the 18th-century village of Prince Albert is appreciated for its languid charm, Cape Dutch architecture and its food traditions.",
+    "date": "4/11/19",
+    "thumbnail": "images/article/prince-albert-south-africa-artist-colony.jpg"
+  },
+  {
+    "title": "5 Cheap(ish) Things to Take on Your Next Long Flight",
+    "link": "https://www.nytimes.com/2019/04/11/smarter-living/5-cheap-ish-things-to-take-on-your-next-long-flight.html",
+    "summary": "Are we there yet?",
+    "date": "4/11/19",
+    "thumbnail": "images/article/5-cheap-ish-things-to-take-on-your-next-long-flight.jpg"
+  },
+  {
+    "title": "Three Courses, 20 Euros: The Affordable Dining Renaissance in Paris",
+    "link": "https://www.nytimes.com/2019/04/10/travel/affordable-dining-in-paris.html",
+    "summary": "The food is so good at these six restaurants, you’d want to go even if their prices weren’t so low.",
+    "date": "4/10/19",
+    "thumbnail": "images/article/affordable-dining-in-paris.jpg"
+  }
+]
