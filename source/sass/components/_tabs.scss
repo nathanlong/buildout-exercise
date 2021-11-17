@@ -1,0 +1,74 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.tab-nav {
+	padding-top: 2rem;
+	// use box shadow to let active border sit on top of the bottom border line
+	box-shadow: inset 0 1px 0 0 v.$light-gray, inset 0 -1px 0 0 v.$light-gray;
+}
+.tab-nav-wrapper {
+	display: flex;
+  justify-content: center;
+	flex-wrap: nowrap;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow-x: scroll; //allow mobile scroll off for big navs
+
+	@include m.small-screen {
+	  overflow-x: auto;
+	}
+
+	&.nav-exceeded {
+	  justify-content: flex-start; // move items to beginning to allow scrolloff
+	}
+
+	&::-webkit-scrollbar {
+		height: 1px;
+	}
+
+	&::-webkit-scrollbar-track {
+		background-color: v.$lighter-gray;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		height: 1px;
+		background-color: v.$light-gray;
+		outline: 1px solid v.$light-gray;
+	}
+}
+
+.tab-nav-item {
+	flex: 0 0 auto;
+}
+
+.tab-nav-link {
+	display: block;
+  padding: 1rem 3rem;
+	font-weight: bold;
+
+	@include m.small-screen {
+		font-size: 1.25rem;
+		padding: 1.5rem 3.5rem;
+	}
+}
+
+.tab-nav-link.active {
+  color: v.$color-accent;
+	border-bottom: 2px solid v.$color-accent;
+}
+
+.tab-pane	{
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+.tab-inner {
+  font-size: 1.25rem;
+	line-height: 2;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}

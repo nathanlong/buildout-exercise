@@ -1,0 +1,19 @@
+@use '../base/variables' as v;
+
+.btn {
+	display: inline-block;
+	padding: 1rem 1.5rem; 
+	color: v.$white;
+	border-radius: 50px;
+	background-color: v.$color-button;
+	font-weight: bold;
+	text-decoration: none;
+
+	&:hover, &:focus {
+	  color: v.$white;
+	}
+
+	&:active {
+	  background-color: v.$color-button-active;
+	}
+}

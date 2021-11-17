@@ -1,0 +1,64 @@
+@use "../base/variables" as v;
+@use "../base/_mixins" as m;
+
+.container {
+  max-width: 1280px;
+	margin: 0 auto;
+	padding-right: v.$grid-sm-offset;
+	padding-left: v.$grid-sm-offset;
+
+	@include m.medium-screen {
+		padding-right: v.$grid-lg-offset;
+		padding-left: v.$grid-lg-offset;
+	}
+}
+
+.container-content {
+  max-width: 860px;
+	margin: 0 auto;
+	padding-right: v.$grid-sm-offset;
+	padding-left: v.$grid-sm-offset;
+
+	@include m.medium-screen {
+		padding-right: v.$grid-lg-offset;
+		padding-left: v.$grid-lg-offset;
+	}
+}
+
+.flex-wrapper {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-right: - v.$grid-sm-offset;
+	margin-left: - v.$grid-sm-offset;
+
+	@include m.medium-screen {
+		margin-right: - v.$grid-lg-offset;
+		margin-left: - v.$grid-lg-offset;
+		flex-direction: row;
+	}
+}
+
+.flex-wrapper > * {
+	padding-right: v.$grid-sm-offset;
+	padding-left: v.$grid-sm-offset;
+
+	@include m.medium-screen {
+		padding-right: v.$grid-lg-offset;
+		padding-left: v.$grid-lg-offset;
+	}
+}
+
+.flex-item-auto {
+  flex: 1 1 auto;
+}
+
+.flex-item-50 {
+	flex: 0 0 100%;
+  width: 100%;
+
+	@include m.medium-screen {
+		flex: 0 0 50%;
+		width: 50%;
+	}
+}

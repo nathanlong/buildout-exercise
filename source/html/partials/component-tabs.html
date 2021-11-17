@@ -1,0 +1,65 @@
+<!-- 
+	COMPONENT: Tabs
+	Nav controls display of matched tab panels (by ID)
+
+	Relies on 'active' class being set on first items on load, would be handled dynamically, but explicitly set here for demo reasons
+-->
+
+<section class="tab">
+	<div class="tab-nav">
+		<ul class="tab-nav-wrapper">
+			<li class="tab-nav-item" role="presentation">
+				<a id="tab-label-1" class="tab-nav-link js-tab-control active" href="#tab-1">Client-Side Apps</a>
+			</li>
+			<li class="tab-nav-item" role="presentation">
+				<a id="tab-label-2" class="tab-nav-link js-tab-control" href="#tab-2">Craft CMS</a>
+			</li>
+			<li class="tab-nav-item" role="presentation">
+				<a id="tab-label-3" class="tab-nav-link js-tab-control" href="#tab-3">Mobile Apps</a>
+			</li>
+			<li class="tab-nav-item" role="presentation">
+				<a id="tab-label-4" class="tab-nav-link js-tab-control" href="#tab-4">React</a>
+			</li>
+		</ul>
+	</div>
+
+
+	<div class="tab-pane-wrapper">
+		<div class="tab-pane active" id="tab-1" role="tabpanel" aria-labelledby="tab-label-1">
+			<div class="tab-inner container-content">
+				<p>Powering modern web experiences. Client-side apps bring the productivity-enhancing and user-pleasing experience of native software to the web. If your web app needs an exceptionally fluid and interactive interface, look no further.</p>
+
+				<p>Possit quaestio euripidis pri eu, ei quod dico mel. Mei diceret placerat dissentiunt cu, pri debitis nostrum in. Usu ea tritani tibique, ne vel nulla oporteat facilisis. Magna utamur rationibus at mei, cum ei aliquip dissentiet. Dicta viris accommodare at cum.</p>
+
+				<!-- keyboard nav assist -->
+				<a class="tab-nav-return sr-only sr-only-focusable js-link-focus" href="#tab-label-1" aria-label="Return to tab navigation">Return to tab navigation</a>
+			</div>
+		</div>
+
+		<div class="tab-pane" id="tab-2" role="tabpanel" aria-labelledby="tab-label-2">
+			<div class="tab-inner container-content">
+				<p>Craft is a flexible and practical content management system — easy to use for members of any team, from designers to developers to content producers. At Viget, we’ve been using Craft to create usable and accessible websites since its inception. We’ve authored numerous plugins and are committed to sharing our knowledge with the development community.</p>
+				<!-- keyboard nav assist -->
+				<a class="tab-nav-return sr-only sr-only-focusable js-link-focus" href="#tab-label-2" aria-label="Return to tab navigation">Return to tab navigation</a>
+			</div>
+		</div>
+		<div class="tab-pane" id="tab-3" role="tabpanel" aria-labelledby="tab-label-3">
+			<div class="tab-inner container-content">
+				<p>We create polished and functional iOS &amp; Android mobile apps for clients. These mobile apps are products of careful planning, strong design, and agile development. Using technologies like React Native, we create powerful mobile experiences across platforms.</p>
+
+				<p>Ne conceptam constituto sea. Ut nec possim iriure, cu duo ferri ceteros torquatos. Nam amet alienum ex. In odio euripidis vis. An vel liber consul.</p>
+
+				<p>Duo virtute nostrud persecuti ut. Mea case perpetua voluptatibus ea, ei vis illum definitionem. An mea dicant apeirian dissentias, admodum habemus mel ne. Eos at vitae delicatissimi, prompta labores tibique ius at. Ipsum viris eos ea.</p>
+				<!-- keyboard nav assist -->
+				<a class="tab-nav-return sr-only sr-only-focusable js-link-focus" href="#tab-label-3" aria-label="Return to tab navigation">Return to tab navigation</a>
+			</div>
+		</div>
+		<div class="tab-pane" id="tab-4" role="tabpanel" aria-labelledby="tab-label-4">
+			<div class="tab-inner container-content">
+				<p>We use React to build rich, interaction-driven experiences on the web. Since 2013, Viget has been using React as our JavaScript (JS) library of choice for building user interfaces due to its component-based design, outstanding performance, and improved developer productivity. In addition to powering many immersive, interactive experiences across our websites and web applications, we've shared a number of React tools and components with the community.</p>
+				<!-- keyboard nav assist -->
+				<a class="tab-nav-return sr-only sr-only-focusable js-link-focus" href="#tab-label-4" aria-label="Return to tab navigation">Return to tab navigation</a>
+			</div>
+		</div>
+	</div>
+</section>

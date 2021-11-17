@@ -1,0 +1,36 @@
+// Colors
+// ----------------------------------------------------------------------------
+
+$light-blue: #1395ba;
+$dark-blue: #141e3c;
+$lighter-gray: #fafafa;
+$light-gray: #e9e9e9;
+$gray: #666;
+$dark-gray: #333;
+$orange: #e57201;
+$white: #fff;
+
+// Color Assignments
+// for more flexible assignments
+// ----------------------------------------------------------------------------
+
+$color-primary: $light-blue;
+$color-accent: $orange;
+$color-link: $light-blue;
+$color-link-active: $orange;
+$color-button: $light-blue;
+$color-button-hover: darken($color-button, 5%);
+$color-button-active: $orange;
+$color-text: $dark-gray;
+
+// Fonts
+// ----------------------------------------------------------------------------
+
+$nunito: 'Nunito Sans', sans-serif;
+
+// Grid
+// ----------------------------------------------------------------------------
+
+$grid-sm-offset: 1rem;
+$grid-lg-offset: 2rem;
+

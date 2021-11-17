@@ -1,4 +1,4 @@
-# Viget Front-End Developer Buildout Exercise
+# Front-End Developer Buildout Exercise
 
 The purpose of this challenge is to evaluate your combined knowledge of markup (HTML), styling (CSS), and behavior (JavaScript) — the core skills for every front-end developer!
 

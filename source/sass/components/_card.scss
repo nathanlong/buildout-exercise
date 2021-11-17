@@ -1,0 +1,14 @@
+@use "../base/variables" as v;
+
+.card {
+}
+
+
+.card-wrapper {
+  flex-wrap: nowrap;
+}
+
+.card-inner {
+	padding: 2rem;
+  background-color: v.$lighter-gray;
+}

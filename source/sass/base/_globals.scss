@@ -1,0 +1,42 @@
+@use "variables" as var;
+
+// Use the more sane box sizing method
+// ----------------------------------------------------------------------------
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Global Styles
+// ----------------------------------------------------------------------------
+
+body {
+  color: var.$color-text;
+	font-family: var.$nunito;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: 1;
+	font-weight: 700;
+}
+
+a {
+  color: var.$color-link;
+	text-decoration: none;
+
+	&:hover, &:focus {
+	  color: var.$color-link-active;
+	}
+}
+
+strong {
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+	height: auto;
+}
