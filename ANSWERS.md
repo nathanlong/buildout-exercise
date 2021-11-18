@@ -69,7 +69,7 @@ familiar with anyone who uses Bootstrap. I modeled my 'grid' after Bootstrap
 The hero component easily lent itself to filling half the allotted space
 edge-to-edge.  Rather than using the older background image / background-size
 declarations which require use of a `<style>` block for dynamic assignment (if
-pulling data from a CMS) in the template, use object-fit to allow a slightly
+pulling data from a CMS) in the template, I used object-fit to allow a slightly
 cleaner `<img>` tag output, and handle the rest with css. This also means we
 can leverage responsive images with srcset for smarter image loading (see
 'Optimization')
@@ -157,10 +157,11 @@ demo).
 Though it wasn't required, this build was tested in:
 
 * Chrome 96.0.4664.45 on OSX
+* Chrome 95.0.4638.74 on Android
 * Safari 14.1.1 on OSX
+* Safari 14.1 on iOS
 * Firefox 93.0 on OSX
-
- 
+* Edge 95 on Windows 11
 
 ---
 

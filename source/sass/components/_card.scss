@@ -41,6 +41,7 @@
 	display: block;
 	padding-bottom: .5rem;
 	border-bottom: 1px solid v.$light-gray;
+	font-size: 1rem;
 	font-weight: 700;
 }
 
@@ -54,6 +55,10 @@
 
 .card-text {
   line-height: 2;
+
+	@include m.medium-screen {
+		font-size: 1.125rem;
+	}
 }
 
 .card-cta	{

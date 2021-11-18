@@ -8,6 +8,7 @@
 }
 
 .tab-pane-wrapper {
+	padding-bottom: 2rem;
   margin-bottom: 2rem;
 }
 .tab-nav-wrapper {
@@ -27,19 +28,20 @@
 	  justify-content: flex-start; // move items to beginning to allow scrolloff
 	}
 
-	&::-webkit-scrollbar {
-		height: 1px;
-	}
+	// Removed because the scroll is ugly on desktop, but this makes it unusable (if prettier)
+	// &::-webkit-scrollbar {
+	// 	height: 1px;
+	// }
 
-	&::-webkit-scrollbar-track {
-		background-color: v.$lighter-gray;
-	}
+	// &::-webkit-scrollbar-track {
+	// 	background-color: v.$lighter-gray;
+	// }
 
-	&::-webkit-scrollbar-thumb {
-		height: 1px;
-		background-color: v.$light-gray;
-		outline: 1px solid v.$light-gray;
-	}
+	// &::-webkit-scrollbar-thumb {
+	// 	height: 1px;
+	// 	background-color: v.$light-gray;
+	// 	outline: 1px solid v.$light-gray;
+	// }
 }
 
 .tab-nav-item {
@@ -89,8 +91,11 @@
 }
 
 .tab-inner {
-  font-size: 1.125rem;
 	line-height: 2;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+
+	@include m.medium-screen {
+		font-size: 1.125rem;
+	}
 }
