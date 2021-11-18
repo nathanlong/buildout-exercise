@@ -1,6 +1,6 @@
 {
-  "short_name": "Hero Dice",
-  "name": "Hero Dice",
+  "short_name": "Buildout Exercise",
+  "name": "Buildout Exercise",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",
@@ -8,6 +8,6 @@
   }],
   "start_url": "/?utm_source=homescreen",
   "display": "fullscreen",
-  "background_color": "#fafafa",
-  "theme_color": "#fafafa"
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
 }

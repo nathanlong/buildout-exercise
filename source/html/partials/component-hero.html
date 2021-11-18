@@ -7,10 +7,22 @@
 		<div class="hero-text flex-item-50">
 			<h1 class="hero-title">Front-End Development</h1>
 			<p class="hero-description"><strong>Engineering with heart.</strong> From the beginning, we’ve believed that software has the power to change the world. We work with small startups and global brands alike, combining two decades of agile development practice with strategic thinking to make clients’ digital dreams a reality.</p>
-			<a class="btn" href="#">Recent Work</a>
+			<a class="btn" href="#">
+				<span class="btn-text">
+					Recent Work 
+					<svg class="icon icon-small" alt="icon"><use xlink:href="#icon-arrow-right"></use></svg>
+				</span>
+			</a>
 		</div>
 		<div class="hero-image">
-			<img src="/images/hero.jpg" alt="Laptop on coffee table">
+			<!-- use those sweet, sweet responsive images -->
+			<img srcset="/images/hero-400.jpg 400w,
+			/images/hero-600.jpg 600w,
+			/images/hero-800.jpg 800w,
+			/images/hero-1200.jpg 1200w"
+			sizes="(min-width: 768px) 50vw, 100vw"
+			src="/images/hero-600.jpg" 
+			alt="Laptop on coffee table">
 		</div>
 	</div>
 	</div>

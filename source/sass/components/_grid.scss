@@ -2,7 +2,7 @@
 @use "../base/_mixins" as m;
 
 .container {
-  max-width: 1280px;
+  max-width: 1344px; //1280 + 2rem padding
 	margin: 0 auto;
 	padding-right: v.$grid-sm-offset;
 	padding-left: v.$grid-sm-offset;
@@ -14,7 +14,7 @@
 }
 
 .container-content {
-  max-width: 860px;
+  max-width: 924px; //860 + 2rem padding
 	margin: 0 auto;
 	padding-right: v.$grid-sm-offset;
 	padding-left: v.$grid-sm-offset;
@@ -53,6 +53,16 @@
   flex: 1 1 auto;
 }
 
+.flex-item-33 {
+	flex: 0 0 100%;
+  width: 100%;
+
+	@include m.medium-screen {
+		flex: 0 0 33.33333%;
+		width: 33.333333%
+	}
+}
+
 .flex-item-50 {
 	flex: 0 0 100%;
   width: 100%;
@@ -60,5 +70,12 @@
 	@include m.medium-screen {
 		flex: 0 0 50%;
 		width: 50%;
+	}
+}
+
+.flex-item-lg-33 {
+	@include m.xlarge-screen {
+		flex: 0 0 33.33333%;
+		width: 33.333333%
 	}
 }

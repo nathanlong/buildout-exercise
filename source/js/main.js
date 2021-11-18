@@ -1,32 +1,27 @@
-// CUSTOM JS
-// Utilizes gulp-include
-// Reference docs for include syntax: https://www.npmjs.com/package/gulp-include
-// =============================================================================
+// FUNCTIONS
+// ---------------------------------------------------------------------------
 
-
-// Vendors
-
-
-
-
-
-// CUSTOM CODE
-// -----------------------------------------------------------------------------
-
-// Toggles tabs, ensu bres it's relative to the triggering element so that
-// multiple tab components can be used on a page
+// Toggles tabs, ensures it's relative to the triggering element so that
+// multiple tab components can be used on a page without unintentional
+// triggering of other elements
 // Accepts: jQuery objects
 function tabToggle(nav, tab) {
-	// reset active nav class
-	nav.parents('.tab-nav-wrapper').find('.tab-nav-link').removeClass('active');
+	// reset active nav class and aria attributes
+	var navControls = nav.parents('.tab-nav-wrapper').find('.tab-nav-link');
+	navControls.removeClass('active');
+	navControls.attr('aria-selected', 'false');
+
+	// then activate the selected ones
 	nav.addClass('active');
+	nav.attr('aria-selected', 'true');
 
 	// control active tab display
 	tab.parents('.tab-pane-wrapper').find('.tab-pane').removeClass('active');
 	tab.addClass('active');
 }
 
-// checks if tab nav is smaller than available area
+// Checks if tab nav is smaller than available area, if so add class to help
+// align objects from the beginning rather than the center
 // Accepts: jQuery object
 function tabNavCheck(nav){
 	var navWidth = nav.width();
@@ -56,6 +51,7 @@ function focusScroll(el) {
 }
 
 // EVENTS
+// ---------------------------------------------------------------------------
 
 $(document).ready(function(){
 
@@ -64,10 +60,10 @@ $(document).ready(function(){
 		event.preventDefault(); // keep the url clean
 		var _this = $(this);
 		var tab = _this.parents('.tab').find(_this.attr('href')); // find matching tab
-		tabToggle(_this, tab);
+		tabToggle(_this, tab); //send jQuery objects to function
 	});
 
-	// Tab nav overflow enable
+	// Tab nav overflow enable, allow multiple instances
 	$('.tab-nav-wrapper').each(function(){
 		tabNavCheck($(this));
 	});
@@ -82,7 +78,7 @@ $(document).ready(function(){
 });
 
 $(window).resize(function(){
-	// Tab nav overflow enable
+	// On resize, check tab nav
 	$('.tab-nav-wrapper').each(function(){
 		tabNavCheck($(this));
 	});

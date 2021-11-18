@@ -11,9 +11,10 @@
 }
 
 .hero-title {
- @include m.fluid-type(24, 60);
+ @include m.fluid-type(24, 64);
  color: v.$color-primary;
  margin-top: 0;
+ margin-bottom: 0.5em;
 }
 
 .hero-text {
@@ -25,6 +26,11 @@
 		order: 1;
 		padding-top: 3rem;
 		padding-bottom: 3rem;
+	}
+
+	@include m.xlarge-screen {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
 	}
 }
 

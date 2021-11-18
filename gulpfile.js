@@ -33,7 +33,7 @@ var paths = {
 	},
 	icons: {
 		src: "source/svg-icons/*.svg",
-		dest: "build/svg"
+		dest: "source/static/svg"
 	}
 };
 

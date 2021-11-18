@@ -1,8 +1,10 @@
-@use "../base/variables" as var;
+@use "../base/variables" as v;
+
+.svg-sprite {
+  display: none;
+}
 
 // Icons
-// Default styling and modifiers
-// Most icons are pulled from Google's material design library
 //
 // Icons are included inline as an svg element with the use element
 // https://css-tricks.com/svg-sprites-use-better-icon-fonts/
@@ -15,7 +17,7 @@
   width: 24px;
   height: 24px;
   vertical-align: middle;
-  fill: var.$white; // default color
+  fill: v.$white; // default color
   transition: fill 150ms ease-out;
 }
 
@@ -38,7 +40,3 @@
   width: 62px;
   height: 62px;
 }
-
-.icon-black { fill: var.$black; }
-
-.icon-blue{ fill: var.$blue; }
